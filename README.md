@@ -1,10 +1,10 @@
 # workerpool
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/Cellularhacker/workerpool)](https://pkg.go.dev/github.com/Cellularhacker/workerpool)
-[![Build Status](https://github.com/Cellularhacker/workerpool/actions/workflows/go.yml/badge.svg)](https://github.com/Cellularhacker/workerpool/actions/workflows/go.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Cellularhacker/workerpool)](https://goreportcard.com/report/github.com/Cellularhacker/workerpool)
-[![codecov](https://codecov.io/gh/Cellularhacker/workerpool/branch/master/graph/badge.svg)](https://codecov.io/gh/Cellularhacker/workerpool)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/Cellularhacker/workerpool/blob/master/LICENSE)
+[![GoDoc](https://pkg.go.dev/badge/github.com/cellularhacker/workerpool)](https://pkg.go.dev/github.com/cellularhacker/workerpool)
+[![Build Status](https://github.com/cellularhacker/workerpool/actions/workflows/go.yml/badge.svg)](https://github.com/cellularhacker/workerpool/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cellularhacker/workerpool)](https://goreportcard.com/report/github.com/cellularhacker/workerpool)
+[![codecov](https://codecov.io/gh/cellularhacker/workerpool/branch/master/graph/badge.svg)](https://codecov.io/gh/cellularhacker/workerpool)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/cellularhacker/workerpool/blob/master/LICENSE)
 
 Concurrency limiting goroutine pool. Limits the concurrency of task execution, not the number of tasks queued. Never blocks submitting tasks, no matter how many tasks are queued.
 
@@ -16,7 +16,7 @@ This implementation builds on ideas from the following:
 ## Installation
 To install this package, you need to setup your Go workspace.  The simplest way to install the library is to run:
 ```
-$ go get github.com/Cellularhacker/workerpool
+$ go get github.com/cellularhacker/workerpool
 ```
 
 ## Example
@@ -25,7 +25,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Cellularhacker/workerpool"
+	"github.com/cellularhacker/workerpool"
 )
 
 func main() {
