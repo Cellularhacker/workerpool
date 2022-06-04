@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cellularhacker/workerpool"
+	"github.com/Cellularhacker/workerpool"
 )
 
 func TestPacedWorkers(t *testing.T) {
