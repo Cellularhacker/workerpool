@@ -1,4 +1,4 @@
-module github.com/cellularhacker/workerpool
+module github.com/Cellularhacker/workerpool
 
 require (
 	github.com/gammazero/deque v0.2.0
