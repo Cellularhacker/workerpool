@@ -1,6 +1,6 @@
 module github.com/cellularhacker/workerpool
 
-go 1.25.0
+go 1.24.0
 
 require (
 	github.com/gammazero/deque v1.2.0
